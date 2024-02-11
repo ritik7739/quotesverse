@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title></title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+    <style>
+    body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f5f8fa;
+    transition: background-color 0.5s;
+}
+.dark-mode {
+    background-color: #15202b;
+    color: #fff;
+}
+.container {
+    display: flex;
+    justify-content: space-around;
+}
+.sidebar {
+    width: 20%; /* Adjusted width */
+    padding: 20px;
+    border: 1px solid #ccc;
+}
+.main {
+    width: 30%; /* Adjusted width */
+    padding: 20px;
+    border: 1px solid #ccc;
+}
+.tweet {
+    border-bottom: 1px solid #eee;
+    padding: 20px;
+}
+.tweet h2 {
+    margin: 0;
+}
+#dark-mode-toggle {
+    position: fixed;
+    top: 10px;
+    right: 10px;
+}
+.navbar {
+    background-color: #1da1f2;
+    color: white;
+    padding: 10px;
+    text-align: center;
+}
+#root {
+    display: flex;
+    justify-content: space-between;
+}
+.icon {
+    cursor: pointer;
+}
+    </style>
+</head>
+<body>
+    <div class="navbar">
+        <button id="dark-mode-toggle">Toggle Dark Mode</button>
+    </div>
+    <div class="container">
+        <div class="sidebar">
+            <h2>Quoteverse</h2>
+            <div class="infos5">
+                <img
+                    class="image-1-icon"
+                    loading="eager"
+                    alt=""
+                    src="/image-1@2x.png"
+                />
+                <div class="infos6">
+                    <div class="infos7">
+                        <h2 class="jhon-doe">Jhon Doe</h2>
+                        <div class="infos8">
+                            <div class="jhondoe">jhondoe</div>
+                        </div>
+                    </div>
+                    <div class="ui-developer">
+                        UI Developer | Let's redesign the world
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="main">
+            <div class="tweet">
+                <div id="root">
+                    <i class="fas fa-home icon"></i>
+                    <i class="fas fa-heart icon"></i>
+                </div>
+            </div>
+            <!-- More quotes here... -->
+        </div>
+        <div class="sidebar">
+            <h1>Trending Topics</h1>
+            <!-- Trending topics here... -->
+        </div>
+    </div>
+    <script>
+        document.getElementById('dark-mode-toggle').addEventListener('click', function() {
+            document.body.classList.toggle('dark-mode');
+        });
+        document.querySelector('.fa-heart').addEventListener('click', function() {
+            // Code to show liked quotes goes here
+            alert('Show liked quotes');
+        });
+    </script>
+</body>
+</html>

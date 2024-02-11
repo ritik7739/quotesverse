@@ -1,0 +1,278 @@
+.hamburger-icon {
+  position: absolute;
+  top: 24px;
+  left: 366px;
+  width: 18px;
+  height: 8px;
+}
+.avatar {
+  align-self: stretch;
+  height: 56px;
+  position: relative;
+  border-bottom: 1px solid var(--border-color);
+  box-sizing: border-box;
+}
+.settings-icon,
+.trending-topics {
+  position: relative;
+  overflow: hidden;
+}
+.trending-topics {
+  margin: 0;
+  width: 158px;
+  font-size: inherit;
+  line-height: 19px;
+  font-weight: 700;
+  font-family: inherit;
+  display: inline-block;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+.settings-icon {
+  height: 20px;
+  width: 20px;
+  flex-shrink: 0;
+  min-height: 20px;
+}
+.infos10,
+.title {
+  align-self: stretch;
+  display: flex;
+}
+.title {
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  gap: var(--gap-xl);
+}
+.infos10 {
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.show-all-quotes {
+  width: 108px;
+  position: relative;
+  font-size: var(--font-size-sm);
+  line-height: 19px;
+  font-weight: 500;
+  color: var(--color-cornflowerblue);
+  white-space: nowrap;
+  display: inline-block;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+.age {
+  width: 26px;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+}
+.age,
+.age1,
+.quotes {
+  position: relative;
+  line-height: 19px;
+  display: inline-block;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+.age1 {
+  width: 34px;
+  font-size: var(--font-size-sm);
+  font-weight: 500;
+  color: var(--text-color);
+}
+.quotes {
+  width: 63px;
+}
+.topic {
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-11xs);
+}
+.education {
+  width: 78px;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+}
+.education,
+.education1,
+.quotes1 {
+  position: relative;
+  line-height: 19px;
+  display: inline-block;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+.education1 {
+  width: 76px;
+  font-size: var(--font-size-sm);
+  font-weight: 500;
+  color: var(--text-color);
+}
+.quotes1 {
+  width: 58px;
+}
+.topic1 {
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-11xs);
+}
+.science {
+  width: 58px;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+}
+.quotes2,
+.science,
+.science1 {
+  position: relative;
+  line-height: 19px;
+  display: inline-block;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+.science1 {
+  width: 65px;
+  font-size: var(--font-size-sm);
+  font-weight: 500;
+  color: var(--text-color);
+}
+.quotes2 {
+  width: 58px;
+}
+.topic2 {
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-11xs);
+}
+.games {
+  width: 47px;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+}
+.games,
+.games1,
+.quotes3 {
+  position: relative;
+  line-height: 19px;
+  display: inline-block;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+.games1 {
+  width: 54px;
+  font-size: var(--font-size-sm);
+  font-weight: 500;
+  color: var(--text-color);
+}
+.quotes3 {
+  width: 55px;
+}
+.topic3 {
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-11xs);
+}
+.design {
+  width: 50px;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+}
+.design,
+.design1,
+.quotes4 {
+  position: relative;
+  line-height: 19px;
+  display: inline-block;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+.design1 {
+  width: 54px;
+  font-size: var(--font-size-sm);
+  font-weight: 500;
+  color: var(--text-color);
+}
+.quotes4 {
+  width: 58px;
+}
+.topic4 {
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-11xs);
+}
+.treanding {
+  align-self: stretch;
+  gap: var(--gap-base);
+  font-size: var(--font-size-xs);
+  color: var(--text-color-alt);
+}
+.infos9,
+.threadavatarframe,
+.treanding {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.infos9 {
+  align-self: stretch;
+  padding: var(--padding-29xl);
+  gap: var(--gap-5xl);
+}
+.threadavatarframe {
+  width: 400px;
+  min-width: 400px;
+  max-width: 100%;
+  text-align: left;
+  font-size: var(--font-size-xl);
+  color: var(--text-color);
+  font-family: var(--font-inter);
+}
+@media screen and (max-width: 1125px) {
+  .threadavatarframe {
+    flex: 1;
+  }
+}
+@media screen and (max-width: 750px) {
+  .infos9 {
+    padding-top: var(--padding-12xl);
+    padding-bottom: var(--padding-12xl);
+    box-sizing: border-box;
+  }
+}
+@media screen and (max-width: 450px) {
+  .trending-topics {
+    font-size: var(--font-size-base);
+    line-height: 15px;
+  }
+  .infos9 {
+    padding-left: var(--padding-xl);
+    padding-right: var(--padding-xl);
+    box-sizing: border-box;
+  }
+  .threadavatarframe {
+    min-width: 100%;
+  }
+}
